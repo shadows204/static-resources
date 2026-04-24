@@ -1,0 +1,47 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "ariu.moc3",
+		"Textures": [
+			"textures/texture_00.png",
+			"textures/texture_01.png",
+			"textures/texture_02.png",
+			"textures/texture_03.png"
+		],
+		"Physics": "ariu.physics3.json",
+		"DisplayInfo": "ariu.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	],
+	"Expressions": [
+        {
+            "Name": "heilian",
+            "File": "motions/黑脸.exp3.json"
+        },
+        {
+            "Name": "love",
+            "File": "motions/爱心眼.exp3.json"
+        },
+        {
+            "Name": "hat",
+            "File": "motions/戴帽子.exp3.json"
+        },
+		{
+			"Name": "jk",
+            "File": "motions/jk包.exp3.json"
+		}
+    ]
+}
